@@ -1,13 +1,23 @@
-img{
-    height: 150px;
+.me{
+    height: 200px;
+    background-color: #E3B6B6
 }
 ul {
     list-style-type: none;
-    text-align: center;
-  }
 
-.sideNav{
+  }
+.text{
+    text-align: center;
+    justify-content: center;
+}
+
+.sideNav {
     width: 300px;
     height: 100rem;
-    background-color: lightgray
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: black;
 }

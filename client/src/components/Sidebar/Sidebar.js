@@ -1,24 +1,45 @@
 import React from 'react';
 import './style.css';
-import Github from '../Icons/Icons'
+import Icons from '../Icons/Icons';
 
 function Sidebar() {
   return (
-      <div className="sideNav">
-        <img
-          src="./images/aCoolPicOfMe.jpg"
-          className="rounded-circle shadow-lg p-3 mb-5 rounded"
-          alt="Me"
-        />
+    <div className="sideNav">
+      <div>
+
         <ul>
-          <li><h2 href="/">Jennifer Henry</h2></li>
-          <li><p>San Francisco Bay Area</p></li>
-          <li><p>jenhenry1995@gmail.com</p></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/"> Projects </a></li>
-          <li><Github/></li>
+          <li>        <img
+          src="./images/aCoolPicOfMe.jpg"
+          className="rounded-circle shadow-lg p-3 mb-4 rounded me mt-3"
+          alt="Me"
+        /></li>
+          <li>
+            <h2 href="/">Jennifer Henry</h2>
+          </li>
+          <li className='text'>
+            <p>San Francisco Bay Area</p>
+          </li>
+          <li className='text'>
+            <p>jenhenry1995@gmail.com</p>
+          </li>
+          <li className='text'>
+            <p>925-212-0246</p>
+          </li>
+          <li className='text'>
+            <a href="/">About</a>
+          </li>
+          <li className='text'>
+            <a href="/"> Projects </a>
+          </li>
+          <li className='text'>
+            <a href="/"> Contact </a>
+          </li>
+          <li className="ml-5">
+            <Icons />
+          </li>
         </ul>
       </div>
+    </div>
   );
 }
 

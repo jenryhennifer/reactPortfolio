@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Nav from './components/Nav/Nav';
 import Home from './pages/Home';
+import Sidebar from './components/Sidebar/Sidebar'
 // import Projects from './pages/Projects';
 // import Contact from './pages/Contact';
 
@@ -13,7 +14,7 @@ function App() {
     <Router>
       <div>
         {/* proeduces navbar on every page */}
-        <Nav />
+        <Sidebar/>
         <Switch>
           <Route exact path="/">
             <Home />

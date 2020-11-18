@@ -1,7 +1,8 @@
 import React from 'react';
 import './style.css';
 
-//icons for
+//icons for media
+//maybe change to separate components for less redundancy
 
 function Icons() {
   return (
@@ -66,6 +67,5 @@ function Icons() {
     </ul>
   );
 }
-
 
 export default Icons;
