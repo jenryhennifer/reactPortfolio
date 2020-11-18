@@ -14,7 +14,7 @@ function Sidebar() {
           alt="Me"
         /></li>
           <li>
-            <h2 href="/">Jennifer Henry</h2>
+            <h2 to="/">Jennifer Henry</h2>
           </li>
           <li className='text'>
             <p>San Francisco Bay Area</p>
@@ -29,10 +29,10 @@ function Sidebar() {
             <a href="/">About</a>
           </li>
           <li className='text'>
-            <a href="/"> Projects </a>
+            <a href="/projects"> Projects </a>
           </li>
           <li className='text'>
-            <a href="/"> Contact </a>
+            <a href="/contact"> Contact </a>
           </li>
           <li className="ml-5">
             <Icons />

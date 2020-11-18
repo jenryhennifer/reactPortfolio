@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
 //allows to switch screens
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 
-import Nav from './components/Nav/Nav';
 import Home from './pages/Home';
 import Sidebar from './components/Sidebar/Sidebar'
 // import Projects from './pages/Projects';
@@ -16,7 +19,7 @@ function App() {
         {/* proeduces navbar on every page */}
         <Sidebar/>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/" >
             <Home />
           </Route>
           {/* <Route exact path="/projects">

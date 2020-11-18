@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-import Sidebar from '../components/Sidebar/Sidebar'
+import About from '../components/About/About'
 
 class Home extends Component {
   render() {
     return (
       <div>
+        <About/>
       </div>
     );
   }
