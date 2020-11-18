@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Nav from './components/Nav/Nav';
 import Home from './pages/Home';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+// import Projects from './pages/Projects';
+// import Contact from './pages/Contact';
 
 function App() {
   return (
