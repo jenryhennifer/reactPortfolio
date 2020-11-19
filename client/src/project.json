@@ -13,7 +13,7 @@
         "description" : "A fitness tracker made to save multiple exercises in a workout and display statistical data",
         "repo" : "https://github.com/jenryhennifer/fitnessTracker",
         "demo": "https://calm-ridge-04693.herokuapp.com/",
-        "image": ""
+        "image": "https://raw.githubusercontent.com/jenryhennifer/fitnessTracker/main/img/sample.png"
     },
     {
         "id" : 3,
@@ -21,7 +21,7 @@
         "description" : "A password generator that prompts a user for elements of a desired password.",
         "repo" : "https://github.com/jenryhennifer/passwordGenerator",
         "demo": "https://jenryhennifer.github.io/passwordGenerator/",
-        "image": ""
+        "image": "https://raw.githubusercontent.com/jenryhennifer/passwordGenerator/master/Assets/03-javascript-homework-demo.png"
     },
     {
         "id" : 4,

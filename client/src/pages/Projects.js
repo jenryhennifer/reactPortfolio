@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import project from '../project.json';
 import ProjectCard from '../components/ProjectCard/ProjectCard';
+import project from '../project.json';
 
 class Projects extends Component {
   state = {
@@ -10,7 +10,7 @@ class Projects extends Component {
   render() {
     console.log('rendered');
     return (
-      <div>
+      <div className="pl-5 overflow-auto" style={{maxHeight: "500px",  }}>
         {this.state.project.map((project) => (
           <ProjectCard
             id={project.id}

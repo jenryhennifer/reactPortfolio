@@ -11,7 +11,7 @@ function ProjectCard(props) {
           </div>
           <div className="col-md-8">
             <div className="card-body">
-              <h5 className="card-title">{props.name}</h5>
+              <h3 className="card-title">{props.name}</h3>
               <p className="card-text">{props.description}</p>
               <a href={props.demo} className="btn btn-primary" target="_blank" >Demo</a>
               <a href={props.repo} className="btn btn-primary" target="_blank">Repository</a>
