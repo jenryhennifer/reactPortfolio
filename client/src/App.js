@@ -7,6 +7,7 @@ import {
   Route
 } from "react-router-dom";
 
+
 import Home from './pages/Home';
 import Sidebar from './components/Sidebar/Sidebar'
 // import Projects from './pages/Projects';
@@ -15,13 +16,11 @@ import Sidebar from './components/Sidebar/Sidebar'
 function App() {
   return (
     <Router>
-      <div>
+      <div className ='wrapper'>
         {/* proeduces navbar on every page */}
         <Sidebar/>
         <Switch>
-          <Route exact path="/" >
-            <Home />
-          </Route>
+          <Route exact path="/" component={Home} />
           {/* <Route exact path="/projects">
             <Projects />
           </Route>
