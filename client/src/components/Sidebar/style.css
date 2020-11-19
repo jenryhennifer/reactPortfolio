@@ -1,23 +1,24 @@
-.me{
-    height: 200px;
-    background-color: #E3B6B6
+.me {
+  height: 200px;
+  background-color: #e3b6b6;
 }
-ul, .sidebarList, .btn{
-    list-style-type: none;
-
-  }
-.text{
-    text-align: center;
-    justify-content: center;
+ul,
+.sidebarList,
+.btn {
+  list-style-type: none;
+}
+.text {
+  text-align: center;
+  justify-content: center;
 }
 
 .sideNav {
-    width: 350px;
-    height: 100%;
-    background-color: #E0E0E0;
-    display: flex;
-    justify-content: center;
+  width: 350px;
+  height: 100%;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
 }
-a{
-    color: black;
+a {
+  color: black;
 }
