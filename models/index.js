@@ -1,4 +1,4 @@
 module.exports = {
-    Recipe: require("./project")
+    Project: require("./project")
   };
   

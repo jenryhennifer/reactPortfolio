@@ -14,7 +14,7 @@ function Sidebar() {
           alt="Me"
         /></li>
           <li>
-            <h2 to="/">Jennifer Henry</h2>
+            <h2 to="/" className='text' >Jennifer Henry</h2>
           </li>
           <li className='text'>
             <p>San Francisco Bay Area</p>
