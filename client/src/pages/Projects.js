@@ -1,46 +1,28 @@
-import React, {Component} from 'react';
-import API from "../utils/API";
-import ProjectCard from '../components/ProjectCard/ProjectCard' 
+import React, { Component } from 'react';
+import project from '../project.json';
+import ProjectCard from '../components/ProjectCard/ProjectCard';
 
-class Projects extends Component{
-    state ={
-        project:[],
-        name: "",
-        description: "",
-        repo: "",
-        demo:"",
-        image: ""
-    }
-    componentDidMount() {
-        this.loadProject();
-      }
-    
-      loadProject = () => {
-        API.getProject()
-          .then(res =>
-            this.setState({ projects: res.data, name: "", description: "", repo: "", demo: "", image: "" })
-          )
-          .catch(err => console.log(err));
-      };
-    render(){
-        console.log('rendered')
-        return(
-            <div>
-            {this.state.projects.map( project=> 
-                <div className="card" style="width: 18rem;">
-                <img src={project.image} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                  <h5 class="card-title">{project.name}</h5>
-                  <p class="card-text">{project.description}</p>
-                  <a href={project.repo} class="btn btn-primary">Repository</a>
-                  <a href={project.demo} class="btn btn-primary">Demo</a>
-                </div>
-              </div>
-              )
-            }
-            </div>
-        )
-    }
+class Projects extends Component {
+  state = {
+    project: project,
+  };
 
+  render() {
+    console.log('rendered');
+    return (
+      <div>
+        {this.state.project.map((project) => (
+          <ProjectCard
+            id={project.id}
+            name={project.name}
+            image={project.image}
+            description={project.description}
+            demo={project.demo}
+            repo={project.repo}
+          />
+        ))}
+      </div>
+    );
+  }
 }
-export default Projects
+export default Projects;
