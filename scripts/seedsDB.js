@@ -70,3 +70,14 @@ const projectSeed = [
         image: "https://raw.githubusercontent.com/jenryhennifer/workDaySchedule/masterimagepng"
     }
 ]
+db.Project
+  .remove({})
+  .then(() => db.Book.collection.insertMany(projectSeed))
+  .then(data => {
+    console.log(data.result.n + " records inserted!");
+    process.exit(0);
+  })
+  .catch(err => {
+    console.error(err);
+    process.exit(1);
+  });

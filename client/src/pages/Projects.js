@@ -18,15 +18,29 @@ class Projects extends Component{
       loadProject = () => {
         API.getProject()
           .then(res =>
-            this.setState({ books: res.data, title: "", author: "", synopsis: "" })
+            this.setState({ projects: res.data, name: "", description: "", repo: "", demo: "", image: "" })
           )
           .catch(err => console.log(err));
       };
     render(){
+        console.log('rendered')
         return(
-            {this.state.project.map( project=> )}
-            <ProjectCard/>
+            <div>
+            {this.state.projects.map( project=> 
+                <div className="card" style="width: 18rem;">
+                <img src={project.image} class="card-img-top" alt="..."/>
+                <div class="card-body">
+                  <h5 class="card-title">{project.name}</h5>
+                  <p class="card-text">{project.description}</p>
+                  <a href={project.repo} class="btn btn-primary">Repository</a>
+                  <a href={project.demo} class="btn btn-primary">Demo</a>
+                </div>
+              </div>
+              )
+            }
+            </div>
         )
     }
 
 }
+export default Projects

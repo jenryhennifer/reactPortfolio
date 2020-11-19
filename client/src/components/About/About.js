@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="card pl">
+    <div className="card m-2 p-2">
       <div className="card-body">
         <h5 className="card-title">Who Am I?</h5>
       </div>

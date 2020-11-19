@@ -10,7 +10,7 @@ import {
 
 import Home from './pages/Home';
 import Sidebar from './components/Sidebar/Sidebar'
-// import Projects from './pages/Projects';
+import Projects from './pages/Projects';
 // import Contact from './pages/Contact';
 
 function App() {
@@ -21,10 +21,10 @@ function App() {
         <Sidebar/>
         <Switch>
           <Route exact path="/" component={Home} />
-          {/* <Route exact path="/projects">
+          <Route exact path="/projects">
             <Projects />
           </Route>
-          <Route exact path="/contact">
+          {/* <Route exact path="/contact">
             <Contact />
           </Route> */}
         </Switch>
