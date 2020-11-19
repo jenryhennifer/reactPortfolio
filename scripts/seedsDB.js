@@ -3,8 +3,14 @@ const db = require("../models");
 
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/reactrecipes"
-);
+    process.env.MONGODB_URI || 'mongodb://localhost/dbPortfolio',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false
+    }
+  );
 
 const projectSeed = [
     {
