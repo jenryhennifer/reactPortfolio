@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
-import ProjectCard from '../components/ProjectCard/ProjectCard';
+
+//json data
 import project from '../project.json';
+
+//components used
+import ProjectCard from '../components/ProjectCard/ProjectCard';
 import ProjectPageTitle from '../components/ProjectPageTitle/ProjectPageTitle';
+import Languages from '../components/Languages/Languages'
 
 class Projects extends Component {
   state = {
@@ -13,6 +18,7 @@ class Projects extends Component {
     return (
       <div>
         <ProjectPageTitle/>
+        <div className="wrapper">
         <div
           className="projectContainer pl-5 overflow-auto"
           style={{ maxHeight: '500px' }}
@@ -27,6 +33,9 @@ class Projects extends Component {
               repo={project.repo}
             />
           ))}
+
+        </div>
+        <Languages />
         </div>
       </div>
     );

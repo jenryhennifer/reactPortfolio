@@ -7,7 +7,7 @@ function Sidebar() {
     <div className="sideNav">
       <div>
 
-        <ul>
+        <ul className='sidebarList'>
           <li>        <img
           src="./images/aCoolPicOfMe.jpg"
           className="rounded-circle shadow-lg p-3 mb-4 rounded me mt-3"

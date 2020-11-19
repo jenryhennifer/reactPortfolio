@@ -3,7 +3,7 @@ import './style.css';
 
 function ProjectCard(props) {
   return (
-    <div>
+    <div className='container'>
       <div className="card mb-8" style={{maxWidth: "500px"}}>
         <div className="row no-gutters">
           <div className="col-md-12">

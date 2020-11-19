@@ -1,0 +1,13 @@
+
+.languageList {
+    list-style-type: none;
+
+  }
+.text{
+    text-align: center;
+    justify-content: center;
+}
+
+a{
+    color: black;
+}
