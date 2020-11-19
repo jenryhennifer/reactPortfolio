@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="card m-2 p-2 cardStyle">
       <div className="card-body">
-        <h5 className="card-title">Who Am I?</h5>
+        <h4 className="card-title">Who Am I?</h4>
       </div>
       <p>
         I am a fullstack engineer living in the Bay Area. I studied through UC

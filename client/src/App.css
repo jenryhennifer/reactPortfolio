@@ -26,3 +26,6 @@
   align-items:center;
   display: flex;
 }
+.projectContainer{
+  border-color:#E3B6B6;
+}
