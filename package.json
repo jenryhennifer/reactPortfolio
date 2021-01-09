@@ -24,5 +24,13 @@
     "if-env": "^1.0.4",
     "mongoose": "^5.10.15",
     "react-router-dom": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenryhennifer/reactPortfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jenryhennifer/reactPortfolio/issues"
+  },
+  "homepage": "https://github.com/jenryhennifer/reactPortfolio#readme"
 }
