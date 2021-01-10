@@ -16,6 +16,7 @@ if (process.env.NODE_ENV === "production") {
 // Send every other request to the React app
 // Define any API routes before this runs
 app.get("*", (req, res) => {
+  //the root route is pulled form the client folder in public and accesses index
   res.sendFile(path.join(__dirname, "./client/public/index.html"));
 });
 
