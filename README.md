@@ -6,7 +6,7 @@
 
 ## Deployment
 
-[Deployment]()
+[Deployment](https://jennifer-henry-portfolio.herokuapp.com/)
 
 ## Tech Used
 
