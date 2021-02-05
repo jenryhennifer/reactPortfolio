@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const PORT = process.env.PORT || 3001;
+const INDEX = '/index.html';
 const app = express();
 const routes = require("./routes");
 
@@ -20,7 +21,8 @@ app.use(routes)
 // Define any API routes before this runs
 app.get("*", (req, res) => {
   //the root route is pulled form the client folder in public and accesses index
-  res.sendFile(path.join(__dirname, "./client/public/index.html"));
+  // res.sendFile(path.join(__dirname, "./client/public/index.html"));
+  res.sendFile(path.join(__dirname,'build', "index.html"));
 });
 
 app.listen(PORT, () => {
