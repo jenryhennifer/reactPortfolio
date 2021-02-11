@@ -1,3 +1,6 @@
-.stickyfooter{
-    background-color: #E3B6B6;
+.stickyfooter {
+  background-color: #e3b6b6;
+  position: fixed;
+  bottom:0;
+  width: 100%
 }
