@@ -18,9 +18,14 @@ ul,
   background-color: #e0e0e0;
   display: flex;
   /* justify-content: center; */
-  float:none;
-  margin:0 auto;
-  text-align:center;
+  /* float:none; */
+  /* margin:0 auto; */
+  /* text-align:center; */
+
+  /* MAKES THE SIDEBAR STICKY ON THE BROWSER */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 a {
   color: black;
