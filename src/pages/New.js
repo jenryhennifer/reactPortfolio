@@ -29,7 +29,7 @@ class New extends Component {
           </Animator>
         </ScrollPage>
         <ScrollPage page={2}>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -500))}>
             <Projects />
           </Animator>
         </ScrollPage>

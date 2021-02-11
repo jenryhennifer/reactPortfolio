@@ -16,7 +16,7 @@ class Projects extends Component {
   render() {
     console.log('rendered');
     return (
-      <div>
+      <div className='projectPage align-items-center'>
         <ProjectPageTitle/>
         <div className="wrapper">
         <div
@@ -33,9 +33,10 @@ class Projects extends Component {
               repo={project.repo}
             />
           ))}
-
         </div>
+        <div className='wahtIKnow'>
         <Languages />
+        </div>
         </div>
       </div>
     );
