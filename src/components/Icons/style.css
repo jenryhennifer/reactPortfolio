@@ -1,7 +1,7 @@
 .logo{
-    height: 40px;
-    width: 40px
+    max-height: 40px;
+    max-width: 40px;
 }
-li{
-    margin: -5px;
+.list-inline-item{
+    margin: -15px;
 }

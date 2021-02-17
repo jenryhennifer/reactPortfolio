@@ -14,7 +14,7 @@ body {
 }
 
 ::-webkit-scrollbar:vertical {
-  width: 12px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar:horizontal {

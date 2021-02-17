@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 function ContactMe() {
   return (
@@ -21,7 +22,7 @@ function ContactMe() {
         </li>
       </ul>
       <a
-        className="btn"
+        className="btn contact"
         href="https://github.com/jenryhennifer"
         target="_blank"
         rel="noopener"
@@ -29,7 +30,7 @@ function ContactMe() {
         Git Hub
       </a>
       <a
-        className="btn"
+        className="btn contact"
         href="https://www.linkedin.com/in/jennifer-henry-4a540a149/"
         target="_blank"
         rel="noopener"
@@ -37,7 +38,7 @@ function ContactMe() {
         LinkedIn
       </a>
       <a
-        className="btn"
+        className="btn contact"
         href="https://medium.com/@jenhenry1995"
         target="_blank"
         rel="noopener"
@@ -45,7 +46,7 @@ function ContactMe() {
         Medium
       </a>
       <a
-        className="btn"
+        className="btn contact"
         href="images/resumeUpdated2021.pdf"
         target="_blank"
         rel="noopener"

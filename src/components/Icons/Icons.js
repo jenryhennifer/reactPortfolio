@@ -6,8 +6,8 @@ import './style.css';
 
 function Icons() {
   return (
-    <ul>
-      <li>
+    <ul className='list-inline'>
+      <li className='list-inline-item'>
         <a
           className="btn"
           href="https://github.com/jenryhennifer"
@@ -21,7 +21,7 @@ function Icons() {
           />
         </a>
       </li>
-      <li>
+      <li className='list-inline-item'>
         <a
           className="btn"
           href="https://www.linkedin.com/in/jennifer-henry-4a540a149/"
@@ -35,7 +35,7 @@ function Icons() {
           />
         </a>
       </li>
-      <li>
+      <li className='list-inline-item'>
         <a
           className="btn"
           title="Medium"
@@ -50,7 +50,7 @@ function Icons() {
           />
         </a>
       </li>
-      <li>
+      <li className='list-inline-item'>
         <a
           className="btn"
           href="images/ResumeUpdated2020.pdf"
