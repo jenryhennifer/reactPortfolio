@@ -11,7 +11,7 @@ import {
   Sticky,
 } from 'react-scroll-motion';
 import Home from './Home';
-import Projects from './Projects';
+import ProjectPages from './Projects';
 import Contact from './Contact';
 
 class New extends Component {
@@ -19,18 +19,18 @@ class New extends Component {
     return (
       <ScrollContainer>
         <ScrollPage page={0}>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-            <Home id='about' />
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -500))}>
+            <Home id="about" />
           </Animator>
         </ScrollPage>
         <ScrollPage page={1}>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-            <Contact id='contact'/>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -500))}>
+            <ProjectPages id="projects"/>
           </Animator>
         </ScrollPage>
         <ScrollPage page={2}>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -500))}>
-            <Projects id='projects'/>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>
+            <Contact id="contact" />
           </Animator>
         </ScrollPage>
       </ScrollContainer>
