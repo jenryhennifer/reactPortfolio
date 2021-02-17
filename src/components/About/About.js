@@ -11,7 +11,7 @@ function About() {
         I am a fullstack engineer living in the Bay Area. I studied through UC
         Berkeley Extension. I love learning new languages, strategies, and
         programs to expand my knowledge in the field. I have a background in
-        health and hope to bring my new knowledge of software engineering and heath
+        health and hope to bring my new knowledge of software engineering and health
         together.
       </p>
       <p>

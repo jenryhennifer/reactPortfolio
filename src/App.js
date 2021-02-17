@@ -16,9 +16,9 @@ function App() {
     <Router>
       <div className="wrapper">
         {/* proeduces (side) navbar on every page */}
-        <Sidebar className="col-md-4" />
+        <Sidebar className="col-sm-4" />
         <Footer />
-        <div className="wrapper col-md-8">
+        <div className="wrapper col-sm-8">
           <New />
         </div>
       </div>
