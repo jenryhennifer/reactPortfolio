@@ -10,10 +10,12 @@ import ProjectPage from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer/Footer';
 import New from './pages/New';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <Router>
+      {/* <Navbar/> */}
       <div className="wrapper">
         {/* proeduces (side) navbar on every page */}
         <Sidebar className="col-sm-4" />

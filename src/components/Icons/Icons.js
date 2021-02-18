@@ -53,7 +53,7 @@ function Icons() {
       <li className='list-inline-item'>
         <a
           className="btn"
-          href="images/ResumeUpdated2020.pdf"
+          href="images/jenniferhenry2021resume.pdf"
           role="button"
           target="_blank"
         >

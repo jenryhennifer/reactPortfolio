@@ -14,6 +14,7 @@ function Languages() {
         <li>MongoDB</li>
         <li>JQuery</li>
         <li>Git</li>
+        <li>UI/UX</li>
       </ul>
     </div>
   );

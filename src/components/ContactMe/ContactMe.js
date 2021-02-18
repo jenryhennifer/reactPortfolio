@@ -47,7 +47,7 @@ function ContactMe() {
       </a>
       <a
         className="btn contact"
-        href="images/resumeUpdated2021.pdf"
+        href="images/jenniferhenry2021resume.pdf"
         target="_blank"
         rel="noopener"
       >
