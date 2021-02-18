@@ -3,7 +3,7 @@ import './style.css'
 
 function About() {
   return (
-    <div className="card m-2 p-2">
+    <div className="card m-4 p-2 border border-dark shadow-lg p-3 mb-5 bg-white rounded">
       <div className="card-body">
         <h4 className="card-title">Who Am I?</h4>
       </div>

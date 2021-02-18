@@ -19,17 +19,17 @@ class New extends Component {
     return (
       <ScrollContainer>
         <ScrollPage page={0}>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -500))}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
             <Home id="about" />
           </Animator>
         </ScrollPage>
         <ScrollPage page={1}>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -500))}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
             <ProjectPages id="projects"/>
           </Animator>
         </ScrollPage>
         <ScrollPage page={2}>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
             <Contact id="contact" />
           </Animator>
         </ScrollPage>

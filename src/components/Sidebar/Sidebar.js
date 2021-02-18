@@ -11,7 +11,6 @@ export default class Sidebar extends Component {
         <div>
           <ul className="sidebarList">
             <li>
-              {' '}
               <img
                 src="./images/aCoolPicOfMe.jpg"
                 className="rounded-circle shadow-lg p-3 mb-4 rounded me mt-3"
@@ -32,26 +31,7 @@ export default class Sidebar extends Component {
             <li className="text">
               <p>925-212-0246</p>
             </li>
-            {/* <li className="text">
-              <Link to="about">About</Link>
-            </li>
-            <li className="text">
-              <Link
-                activeClass="active"
-                to="projects"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                {' '}
-                Projects{' '}
-              </Link>
-            </li>
-            <li className="text">
-              <Link to="contact"> Contact </Link>
-            </li> */}
-            <li className="ml-5">
+            <li className="">
               <Icons />
             </li>
           </ul>

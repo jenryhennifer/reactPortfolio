@@ -17,12 +17,16 @@ function App() {
     <Router>
       {/* <Navbar/> */}
       <div className="wrapper">
-        {/* proeduces (side) navbar on every page */}
-        <Sidebar className="col-sm-4" />
-        <Footer />
-        <div className="wrapper col-sm-8">
-          <New />
+        <div className="row">
+          {/* proeduces (side) navbar on every page */}
+          <div className="col-md-6">
+            <Sidebar />
+          </div>
+          <div className="col-md-6">
+            <New />
+          </div>
         </div>
+        <Footer />
       </div>
     </Router>
   );

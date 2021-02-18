@@ -3,7 +3,7 @@ import './style.css';
 
 function ContactMe() {
   return (
-    <div className="container">
+    <div className="card border border-dark shadow-lg p-3 mb-5 bg-white rounded">
       <h4>Where to find me:</h4>
       <h5>Feel free to reach out to me on any of my platforms</h5>
 
