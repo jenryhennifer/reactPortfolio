@@ -1,5 +1,13 @@
 [
     {
+        "id" : 0,
+        "name" : "Tic Tac Toe",
+        "description" : "My first attempt at a React Native application by creating a tic tac toe game",
+        "repo" : "https://github.com/jenryhennifer/TicTacToe",
+        "demo": "",
+        "image": "https://github.com/jenryhennifer/TicTacToe/raw/main/demo.gif"
+    },
+    {
         "id" : 1,
         "name" : "Employee Directory",
         "description" : "An employee directory that can be sorted by name, position, and status in the company. User can also search by name. Planet Express (Futurama) was used as the sample employee list for this project.",
