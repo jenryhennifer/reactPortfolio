@@ -31,7 +31,7 @@ function ContactMe() {
       </a>
       <a
         className="btn contact"
-        href="https://www.linkedin.com/in/jennifer-henry-4a540a149/"
+        href="www.linkedin.com/in/jenniferhenry1995"
         target="_blank"
         rel="noopener"
       >

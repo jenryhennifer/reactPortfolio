@@ -4,8 +4,8 @@
         "name" : "Tic Tac Toe",
         "description" : "My first attempt at a React Native application by creating a tic tac toe game",
         "repo" : "https://github.com/jenryhennifer/TicTacToe",
-        "demo": "",
-        "image": "https://github.com/jenryhennifer/TicTacToe/raw/main/demo.gif"
+        "demo": "https://github.com/jenryhennifer/TicTacToe/raw/main/demo.gif",
+        "image": ""
     },
     {
         "id" : 1,
